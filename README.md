@@ -73,6 +73,7 @@
      ```bash
      COMFYUI_SERVER_ADDRESS=192.168.50.50:8080
      OLLAMA_SERVER_ADDRESS=192.168.50.32:11434
+     OLLAMA_MODEL=gemma3:12b
      ```
    - Adjust these values to match your environment.
 
@@ -116,9 +117,9 @@ conda activate bobslab
    Ensure the `.env` file exists in the project root and contains the correct server addresses for ComfyUI and Ollama.
 
    ```bash
-   COMFYUI_SERVER_ADDRESS=192.168.1.10:8188
-   OLLAMA_SERVER_ADDRESS=192.168.1.10:11436
-   OLLAMA_MODEL=gemma3:12b
+     COMFYUI_SERVER_ADDRESS=192.168.50.50:8080
+     OLLAMA_SERVER_ADDRESS=192.168.50.32:11434
+     OLLAMA_MODEL=gemma3:12b
    ```
 
 ---
