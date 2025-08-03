@@ -30,7 +30,7 @@
 
 ## **Table of Contents**
 
-- [Setup](#setup)
+- [Text to Image Generation Setup](#setup)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Running the Server](#running-the-server)
@@ -61,18 +61,18 @@
 
 2. **ComfyUI**:
 
-   - ComfyUI should be installed and running. You must have the checkpoint `realvisxlV50Lightning.Ng9I.safetensors` installed in the `checkpoints` folder for the workflow.
-   - Alternatively, you can modify `workflow.json` to use any other model/checkpoint.
+   - ComfyUI is installed and running on an Unbuntu VM. You must have the checkpoint you wish to use installed in the `checkpoints` folder for the workflow.
+   - Alternatively, you can modify `workflow.json` to use any other model/checkpoint. I will have several different workflow.json files avaiable for diffenert image projects.
 
 3. **Ollama**:
 
-   - Ollama LLM server should be installed and accessible.
+   - Ollama LLM server is installed on a Unbuntu VM on the Dell R730 with the Nvidia A10 configured with PCI Passthrough.
 
 4. **Configuration via `.env`**:
    - The project uses a `.env` file for configuring server addresses. Below are custom configuration settings:
      ```bash
-     COMFYUI_SERVER_ADDRESS=192.168.1.10:8188
-     OLLAMA_SERVER_ADDRESS=192.168.1.10:11436
+     COMFYUI_SERVER_ADDRESS=192.168.50.50:8080
+     OLLAMA_SERVER_ADDRESS=192.168.50.32:11434
      ```
    - Adjust these values to match your environment.
 
@@ -81,18 +81,26 @@
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Teachings/DreamCanvas.git
-   cd DreamCanvas
+   cd /root
+   git clone https://github.com/Bobby13113/AI-Play-Ground.git
+   cd AI-Play-Ground
    ```
 
 2. **Set Up Conda Environment**:
 
    Create and activate the Conda environment:
 
-   ```bash
-   conda create --name dreamcanvas python=3.12
-   conda activate dreamcanvas
-   ```
+```bash
+cd
+mkdir conda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
+./Miniconda3-latest-Linux-aarch64.sh
+```
+
+```bash
+conda create --name dreamcanvas python=3.12
+conda activate dreamcanvas
+```
 
 3. **Install Dependencies**:
 
