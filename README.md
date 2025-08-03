@@ -16,9 +16,17 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> .
     <br> 
 </p>
+
+### 🔧 Core Integrations
+
+| Tool           | Purpose                                                              |
+| -------------- | -------------------------------------------------------------------- |
+| **ComfyUI**    | Node-based image generation with custom workflows and model control  |
+| **Open-WebUI** | LLM interface for prompt engineering, chat, and agent-based tasks    |
+| **N8N**        | Visual workflow automation for chaining AI tasks, APIs, and triggers |
 
 ## **Table of Contents**
 
