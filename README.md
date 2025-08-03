@@ -149,7 +149,7 @@ If you prefer to run the application inside a Docker container, the following st
 Navigate to the project directory and build the Docker image:
 
 ```bash
-docker build -t dreamcanvas .
+docker build -t text-2-imagelab .
 ```
 
 ### **2. Run the Docker Container**
@@ -157,7 +157,7 @@ docker build -t dreamcanvas .
 Once the Docker image is built, run the container:
 
 ```bash
-docker run -d -p 8000:8000 --env-file .env --name dreamcanvas dreamcanvas
+docker run -d -p 8000:8000 --env-file .env --name text-2-imagelab text-2-imagelab
 ```
 
 This command will:
