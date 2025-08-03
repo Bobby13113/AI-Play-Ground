@@ -138,6 +138,14 @@ This will start the app on `http://localhost:8000/`.
 
 To ensure that ComfyUI is functioning correctly, you can test the connection using the workflow defined in `workflow.json`.
 
+## **FastAPI Documentation**
+
+To access the API documents you can use this url or add /redoc or /docs to the applications home url.
+
+```bash
+http://192.168.50.72:8000/redoc
+```
+
 ---
 
 ## **Running with Docker**
