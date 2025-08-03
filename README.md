@@ -93,6 +93,7 @@
 ```bash
 cd
 mkdir conda
+cd conda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
 ./Miniconda3-latest-Linux-aarch64.sh
 ```
