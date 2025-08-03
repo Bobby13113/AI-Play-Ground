@@ -82,8 +82,8 @@
 
    ```bash
    cd /root
-   git clone https://github.com/Bobby13113/AI-Play-Ground.git
-   cd AI-Play-Ground
+   git clone https://github.com/Bobby13113/ImageGen.git
+   cd ImageGen
    ```
 
 2. **Set Up Conda Environment**:
