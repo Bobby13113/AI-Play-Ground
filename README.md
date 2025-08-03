@@ -95,12 +95,12 @@ cd
 mkdir conda
 cd conda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
-./Miniconda3-latest-Linux-aarch64.sh
+bash ./Miniconda3-latest-Linux-aarch64.sh
 ```
 
 ```bash
-conda create --name dreamcanvas python=3.12
-conda activate dreamcanvas
+conda create --name bobslab python=3.12
+conda activate bobslab
 ```
 
 3. **Install Dependencies**:
