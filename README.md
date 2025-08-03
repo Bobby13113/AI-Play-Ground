@@ -118,6 +118,7 @@ conda activate bobslab
    ```bash
    COMFYUI_SERVER_ADDRESS=192.168.1.10:8188
    OLLAMA_SERVER_ADDRESS=192.168.1.10:11436
+   OLLAMA_MODEL=gemma3:12b
    ```
 
 ---
