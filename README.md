@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://avatars.githubusercontent.com/u/181013883?v=4" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Bob's AI Lab</h3>
+<h3 align="center">Bob's AI Lab!</h3>
 
 <div align="center">
 
